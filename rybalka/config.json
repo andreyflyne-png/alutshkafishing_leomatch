@@ -1,0 +1,39 @@
+{
+  "auto_adopt": true,
+  "auto_adopt_max_messages": 14,
+  "bot_username": "leomatchbot",
+  "chat_usernames": [],
+  "chat_wait_seconds": 30,
+  "daily_like_cap": 150,
+  "dry_run": false,
+  "long_break_every": [
+    18,
+    35
+  ],
+  "long_break_seconds": [
+    30,
+    90
+  ],
+  "min_confidence": 0.7,
+  "model": "claude-sonnet-5-5",
+  "reply": {
+    "gap_between_messages": [
+      0.8,
+      2.2
+    ],
+    "read_delay": [
+      1,
+      2
+    ],
+    "type_ms_per_char": [
+      20,
+      25
+    ]
+  },
+  "show_chromium_window": true,
+  "swipe_delay": [
+    2.5,
+    6
+  ],
+  "training_examples_per_label": 4
+}
